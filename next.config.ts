@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
         hostname: 'fakestoreapi.com',
         pathname: '/img/**',
       },
+      {
+        hostname: 'files.stripe.com'
+      },
     ],
   },
 };
