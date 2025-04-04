@@ -47,7 +47,7 @@ export const useCartStore = create<CartState>()(
             return { cart: filteredCart };
           }
         }),
-      isOpen: false,
+      isOpen: true,
       toggleCart: () => set((state) => ({ isOpen: !state.isOpen })),
     }),
     { name: "cart-storage" }
